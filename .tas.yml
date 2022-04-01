@@ -9,3 +9,7 @@ preMerge:
 postMerge:
   pattern:
     - "./test/lint-verify-fail.test.js"
+postRun:
+     command:
+        - node --version
+version: 1.0
